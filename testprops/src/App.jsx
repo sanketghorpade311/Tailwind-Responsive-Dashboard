@@ -21,6 +21,10 @@ function App() {
       <div className='flex flex-row mt-18' >
         <div className={` ${width ? "w-1/6" : "w-10 "} duration-300 z-20`}><Sidebar onWidthChange={handleWidthChange}></Sidebar></div>
         <div className={` ${width ? "w-5/6" : "w-full"} duration-300 z-20`}><BodyMain></BodyMain></div>
+        <div>test</div>
+        <div>test1</div>
+        <div>test1</div>
+        
       </div>
       
 
